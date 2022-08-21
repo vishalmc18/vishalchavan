@@ -1,0 +1,89 @@
+@media screen and (max-width: 1000px) {
+    body{
+        /* background-color: antiquewhite; */
+        /* text-align: center; */
+        /* overflow: hidden; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name_box, .name, .college, .button{
+        margin: 5vh 2vw 0 0;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        width: 100vw;
+    }
+    .imgandinfo{
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 ;
+    }
+    .infoabout{
+        height: auto;
+        width: 70vw;
+        margin: 0 ;
+        padding: 0 20vw ;
+        text-align: center;
+        align-items: center;
+        /* color: blue; */
+        align-content: center;
+        margin: 0 20vw;
+    }
+    .imgandinfo img{
+        margin: 10vw 0 ;
+        width: 80vw;
+        margin: 0;
+        align-items: center;
+        align-content: center;
+    }
+    .skillimg{
+        height: 10vw;
+    }
+    .skill2{
+        margin: 0 10vw 0 0;
+    }
+    .contactcontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact1, .contact2{
+        margin: 0;
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: start;
+    }
+    .query{
+        margin: 10vh 0 0 0;
+        width: 60vw;
+        height: 10vh;
+        font-family: 'Baloo 2', cursive;
+    }
+    .inputname{
+        font-family: 'Baloo 2', cursive;
+        margin: 5px 0 0 0;
+        height: 3vh;
+        width: 30vw;
+    }
+    .links{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 10vh 0 0 30vw;
+    }
+    .linkimg{
+        height: 5vw;
+        margin: 0 2vw;
+        border-radius: 5px;
+        
+
+    
+}

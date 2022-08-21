@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+*{
+    margin: 0;padding: 0;
+}
+header{
+    display: flex;
+    /* background-color: black; */
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    position: fixed;
+}
+header nav{
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    padding: 0 12px;
+}
+header nav ul li{
+    list-style: none;
+    padding:0 20px;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    align-items: center;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    /* border: 3px solid goldenrod; */
+    /* width: 7em;
+    height: 2em; */
+    border-radius: 4px;
+}
+.container{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+    color: white;
+    /* margin: 64px 0; */
+    padding: 64px 0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+.name_box{
+    /* background-color: red; */
+    width: 50vw;
+    height: 20vh;
+    margin: 7vw 0 0 50vw;
+}
+.name{
+    padding: 10px 35px;
+    font-size: 2rem;
+    font-family: 'Baloo 2', cursive;
+    /* font-weight: 500; */
+    letter-spacing: 2px;
+}
+.college{
+    padding: 10px 35px;
+    font-family: 'Baloo 2', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.button{
+    margin: 0 0 0 50vw;
+    padding: 10px 0 0 0;
+}
+
+.button nav{
+    display: flex;
+}
+.button nav ul{
+    display: flex;
+    padding: 0 12px;
+}
+.button nav ul li{
+    list-style: none;
+    padding:0 20px;
+    font-family: 'Baloo 2', cursive;
+    align-items: center;
+    text-align: center;
+}
+.button nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid goldenrod;
+    width: 7em;
+    height: 2em;
+    border-radius: 4px;
+}
+.button nav ul li a:hover{
+    background-color: goldenrod;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.aboutheading{
+    margin: 10vw 0 0 0;
+    align-items: center;
+    text-align: center;
+    /* font-weight: 500; */
+    line-height: 1.2; 
+    font-size: 1.5rem;  
+    font-family: 'Baloo 2', cursive;
+    letter-spacing: 2px;
+    color: goldenrod;
+}
+.imgandinfo{
+    
+    margin: 7vw 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+.infoabout{
+    width: 40vw;
+    height: 50vh;
+    margin: 5vw 0 0 20vw;
+    /* background-color:aqua ; */
+    color: rgb(226, 115, 23);
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.imgandinfo img{
+    width: 40vw;
+    margin: 0 0 0 10vw;
+}
+.skillcontainer{
+    
+    margin: 10vh 0 0 0;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 60vh;
+}
+.skill1{
+    width: 50vw;
+    /* background-color: blue; */
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.skill2{
+    width: 50vw;
+    /* background-color: brown; */
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.skillbox{
+    margin: 3.7vh 0 0 20vw;
+    /* background-color: bisque; */
+    height: 15vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.skillimg{
+    height: 10vh;
+}
+.skillimgcss{
+    width: 4.6vw ;
+}
+.skillwritten{
+    letter-spacing: 1px;
+    /* font-size: 400; */
+    font-weight: 400;
+    line-height: 1.2; 
+    font-size: 1.5rem;  
+    font-family: 'Baloo 2', cursive;
+    
+    
+    color: goldenrod;
+}
+.pyimg{
+    margin: 0 0 0 5vw;
+}
+.contactcontainer{
+    
+    margin: 10vh 0 0 0;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 40vh;
+}
+.contact1{
+    width: 50vw;
+    margin: 0 0 0 20vw;
+    /* background-color: blue; */
+    align-items: center;
+    text-align: start;
+    align-content: center;
+}
+
+.contact2{
+    width: 50vw;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    /* background-color: brown; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* align-content: center; */
+}
+.contact1 .written{
+    margin: 5vw 0 0 0;
+    font-family: 'Baloo 2', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: goldenrod;
+}
+.contact1 .mail{
+    /* margin: 5vw 0 0 0; */
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.query{
+    margin: 10vh 0 0 0;
+    width: 30vw;
+    height: 15vh;
+    font-family: 'Baloo 2', cursive;
+}
+.inputname{
+    font-family: 'Baloo 2', cursive;
+    margin: 5px 0 0 0;
+    height: 5vh;
+    width: 14vw;
+}
+.send p{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    /* align-items: center; */
+    text-align: center;
+    /* align-content: center; */
+    border: 3px solid goldenrod;
+    width: 7em;
+    height: 2em;
+    border-radius: 4px;
+    padding: 10px 0 0 0 ;
+    font-family: 'Baloo 2', cursive;
+    
+}
+.send p:hover{
+    background-color: goldenrod;
+    color: rgba(0, 0, 0, 0.918);
+}
+.send{
+    margin: 3vh 0 0 0;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+}
+.links{
+    margin: 10vh 0 0 40vw;
+    height: 8vh;
+    /* margin: auto; */
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.linkimg{
+    height: 7vh;
+    margin: 0 1vw;
+    border-radius: 5px;
+}
+.footer{
+    height: 5vh;
+    width: 100vw;
+    background-color: black;
+    font-family: 'Baloo 2', cursive;
+    align-items: center;
+    text-align: center;
+    color: goldenrod;
+}
+.footer .copyright{
+    color: goldenrod;
+    font-family: 'Baloo 2', cursive;
+}
